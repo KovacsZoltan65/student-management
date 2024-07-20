@@ -3,3 +3,5 @@ https://www.youtube.com/watch?v=qSC_Cb2LhKE
 laravel new student-management
     breeze
     vue with inertia
+
+
