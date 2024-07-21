@@ -8,3 +8,16 @@ laravel new student-management
 php artisan make:migration CreateStudentsTable
 php artisan make:migration CreateSectionsTable
 php artisan make:migration CreateClassesTable
+
+php artisan make:model ClassRoom
+php artisan make:model Section
+php artisan make:model Student
+
+php artisan make:factory ClassFactory
+php artisan make:factory SectionFactory
+php artisan make:factory StudentFactory
+
+php artisan make:seeder ClassSeeder
+php artisan make:seeder SectionSeeder
+php artisan make:seeder StudentSeeder
+php artisan make:seeder UsertSeeder
