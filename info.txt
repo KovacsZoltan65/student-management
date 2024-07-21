@@ -4,6 +4,7 @@ laravel new student-management
     breeze
     vue with inertia
 
+php artisan install:api
 
 php artisan make:migration CreateStudentsTable
 php artisan make:migration CreateSectionsTable
@@ -21,3 +22,16 @@ php artisan make:seeder ClassSeeder
 php artisan make:seeder SectionSeeder
 php artisan make:seeder StudentSeeder
 php artisan make:seeder UsertSeeder
+
+php artisan make:controller StudentController --resource
+php artisan make:controller ClassController --resource
+php artisan make:controller SectionController --resource
+
+php artisan make:resource StudentResource
+php artisan make:resource ClassResource
+php artisan make:resource SectionResource
+
+php artisan make:request ListSectionsData
+php artisan make:request StoreStudentRequest
+php artisan make:request UpdateStudentRequest
+
