@@ -5,3 +5,6 @@ laravel new student-management
     vue with inertia
 
 
+php artisan make:migration CreateStudentsTable
+php artisan make:migration CreateSectionsTable
+php artisan make:migration CreateClassesTable
